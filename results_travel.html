@@ -1,0 +1,647 @@
+<html><head></head><body>
+<table border="1">
+Problem: Arad<br />
+<tr>
+<th></th>
+<th colspan="5">TREESEARCH</th>
+<th colspan="5">GRAPHSEARCH</th>
+<th colspan="1">RBFS</th>
+<th colspan="1">ITERATIVE_DEEPENING</th>
+</tr>
+<tr>
+<th></th>
+<th>A_STAR</th>
+<th>GREEDY_FIRST</th>
+<th>DEPTH_FIRST</th>
+<th>BREADTH_FIRST</th>
+<th>UNIFORM_COST</th>
+<th>A_STAR</th>
+<th>GREEDY_FIRST</th>
+<th>DEPTH_FIRST</th>
+<th>BREADTH_FIRST</th>
+<th>UNIFORM_COST</th>
+<th></th>
+<th></th>
+</tr>
+<tr>
+<td>Expanded nodes</td>
+<td>5</td>
+<td>3</td>
+<td>7</td>
+<td>23</td>
+<td>52</td>
+<td>5</td>
+<td>3</td>
+<td>7</td>
+<td>8</td>
+<td>12</td>
+<td>6</td>
+<td>11</td>
+</tr>
+<tr>
+<td>Created nodes</td>
+<td>16</td>
+<td>10</td>
+<td>18</td>
+<td>64</td>
+<td>133</td>
+<td>16</td>
+<td>10</td>
+<td>18</td>
+<td>21</td>
+<td>31</td>
+<td>19</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Deleted nodes</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>4</td>
+<td>2</td>
+<td>6</td>
+<td>8</td>
+<td>14</td>
+<td>5</td>
+<td>11</td>
+</tr>
+<tr>
+<td>Ignored nodes</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Max nodes concurrent in memory</td>
+<td>16</td>
+<td>10</td>
+<td>18</td>
+<td>64</td>
+<td>133</td>
+<td>13</td>
+<td>9</td>
+<td>13</td>
+<td>14</td>
+<td>19</td>
+<td>14</td>
+<td>19</td>
+</tr>
+<tr>
+<td>Execution time</td>
+<td>0.76 ms</td>
+<td>0.26 ms</td>
+<td>0.25 ms</td>
+<td>0.92 ms</td>
+<td>2.91 ms</td>
+<td>0.43 ms</td>
+<td>0.27 ms</td>
+<td>0.31 ms</td>
+<td>0.35 ms</td>
+<td>0.73 ms</td>
+<td>0.26 ms</td>
+<td>0.42 ms</td>
+</tr>
+<tr>
+<td>Solution Cost</td>
+<td>418</td>
+<td>450</td>
+<td>733</td>
+<td>450</td>
+<td>418</td>
+<td>418</td>
+<td>450</td>
+<td>733</td>
+<td>450</td>
+<td>418</td>
+<td>418</td>
+<td>450</td>
+</tr>
+</table><br /><br /><table border="1">
+Problem: Lugoj<br />
+<tr>
+<th></th>
+<th colspan="5">TREESEARCH</th>
+<th colspan="5">GRAPHSEARCH</th>
+<th colspan="1">RBFS</th>
+<th colspan="1">ITERATIVE_DEEPENING</th>
+</tr>
+<tr>
+<th></th>
+<th>A_STAR</th>
+<th>GREEDY_FIRST</th>
+<th>DEPTH_FIRST</th>
+<th>BREADTH_FIRST</th>
+<th>UNIFORM_COST</th>
+<th>A_STAR</th>
+<th>GREEDY_FIRST</th>
+<th>DEPTH_FIRST</th>
+<th>BREADTH_FIRST</th>
+<th>UNIFORM_COST</th>
+<th></th>
+<th></th>
+</tr>
+<tr>
+<td>Expanded nodes</td>
+<td>7</td>
+<td>6</td>
+<td>5</td>
+<td>48</td>
+<td>72</td>
+<td>6</td>
+<td>6</td>
+<td>5</td>
+<td>12</td>
+<td>12</td>
+<td>10</td>
+<td>31</td>
+</tr>
+<tr>
+<td>Created nodes</td>
+<td>17</td>
+<td>15</td>
+<td>13</td>
+<td>119</td>
+<td>162</td>
+<td>15</td>
+<td>15</td>
+<td>13</td>
+<td>31</td>
+<td>31</td>
+<td>24</td>
+<td>69</td>
+</tr>
+<tr>
+<td>Deleted nodes</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>5</td>
+<td>5</td>
+<td>4</td>
+<td>14</td>
+<td>14</td>
+<td>11</td>
+<td>57</td>
+</tr>
+<tr>
+<td>Ignored nodes</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Max nodes concurrent in memory</td>
+<td>17</td>
+<td>15</td>
+<td>13</td>
+<td>119</td>
+<td>162</td>
+<td>11</td>
+<td>11</td>
+<td>10</td>
+<td>19</td>
+<td>19</td>
+<td>13</td>
+<td>36</td>
+</tr>
+<tr>
+<td>Execution time</td>
+<td>0.47 ms</td>
+<td>0.41 ms</td>
+<td>0.18 ms</td>
+<td>1.87 ms</td>
+<td>4.09 ms</td>
+<td>0.41 ms</td>
+<td>0.4 ms</td>
+<td>0.23 ms</td>
+<td>0.51 ms</td>
+<td>0.74 ms</td>
+<td>0.36 ms</td>
+<td>0.98 ms</td>
+</tr>
+<tr>
+<td>Solution Cost</td>
+<td>504</td>
+<td>504</td>
+<td>504</td>
+<td>679</td>
+<td>504</td>
+<td>504</td>
+<td>504</td>
+<td>504</td>
+<td>679</td>
+<td>504</td>
+<td>504</td>
+<td>504</td>
+</tr>
+</table><br /><br /><table border="1">
+Problem: Iasi<br />
+<tr>
+<th></th>
+<th colspan="5">TREESEARCH</th>
+<th colspan="5">GRAPHSEARCH</th>
+<th colspan="1">RBFS</th>
+<th colspan="1">ITERATIVE_DEEPENING</th>
+</tr>
+<tr>
+<th></th>
+<th>A_STAR</th>
+<th>GREEDY_FIRST</th>
+<th>DEPTH_FIRST</th>
+<th>BREADTH_FIRST</th>
+<th>UNIFORM_COST</th>
+<th>A_STAR</th>
+<th>GREEDY_FIRST</th>
+<th>DEPTH_FIRST</th>
+<th>BREADTH_FIRST</th>
+<th>UNIFORM_COST</th>
+<th></th>
+<th></th>
+</tr>
+<tr>
+<td>Expanded nodes</td>
+<td>3</td>
+<td>3</td>
+<td>101</td>
+<td>10</td>
+<td>10</td>
+<td>3</td>
+<td>3</td>
+<td>5</td>
+<td>4</td>
+<td>4</td>
+<td>3</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Created nodes</td>
+<td>8</td>
+<td>8</td>
+<td>253</td>
+<td>19</td>
+<td>19</td>
+<td>8</td>
+<td>8</td>
+<td>11</td>
+<td>9</td>
+<td>9</td>
+<td>8</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Deleted nodes</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>2</td>
+<td>2</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>0</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Ignored nodes</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Max nodes concurrent in memory</td>
+<td>8</td>
+<td>8</td>
+<td>253</td>
+<td>19</td>
+<td>19</td>
+<td>7</td>
+<td>7</td>
+<td>8</td>
+<td>7</td>
+<td>7</td>
+<td>8</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Execution time</td>
+<td>0.26 ms</td>
+<td>0.23 ms</td>
+<td>3.19 ms</td>
+<td>0.29 ms</td>
+<td>0.5 ms</td>
+<td>0.25 ms</td>
+<td>0.28 ms</td>
+<td>0.21 ms</td>
+<td>0.36 ms</td>
+<td>0.3 ms</td>
+<td>0.13 ms</td>
+<td>0.22 ms</td>
+</tr>
+<tr>
+<td>Solution Cost</td>
+<td>319</td>
+<td>319</td>
+<td>No solution!</td>
+<td>319</td>
+<td>319</td>
+<td>319</td>
+<td>319</td>
+<td>319</td>
+<td>319</td>
+<td>319</td>
+<td>319</td>
+<td>319</td>
+</tr>
+</table><br /><br /><table border="1">
+Problem: Riminicu Vilcea<br />
+<tr>
+<th></th>
+<th colspan="5">TREESEARCH</th>
+<th colspan="5">GRAPHSEARCH</th>
+<th colspan="1">RBFS</th>
+<th colspan="1">ITERATIVE_DEEPENING</th>
+</tr>
+<tr>
+<th></th>
+<th>A_STAR</th>
+<th>GREEDY_FIRST</th>
+<th>DEPTH_FIRST</th>
+<th>BREADTH_FIRST</th>
+<th>UNIFORM_COST</th>
+<th>A_STAR</th>
+<th>GREEDY_FIRST</th>
+<th>DEPTH_FIRST</th>
+<th>BREADTH_FIRST</th>
+<th>UNIFORM_COST</th>
+<th></th>
+<th></th>
+</tr>
+<tr>
+<td>Expanded nodes</td>
+<td>2</td>
+<td>2</td>
+<td>3</td>
+<td>10</td>
+<td>7</td>
+<td>2</td>
+<td>2</td>
+<td>3</td>
+<td>7</td>
+<td>5</td>
+<td>2</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Created nodes</td>
+<td>7</td>
+<td>7</td>
+<td>10</td>
+<td>30</td>
+<td>22</td>
+<td>7</td>
+<td>7</td>
+<td>10</td>
+<td>21</td>
+<td>16</td>
+<td>7</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Deleted nodes</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>3</td>
+<td>7</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Ignored nodes</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Max nodes concurrent in memory</td>
+<td>7</td>
+<td>7</td>
+<td>10</td>
+<td>30</td>
+<td>22</td>
+<td>7</td>
+<td>7</td>
+<td>9</td>
+<td>15</td>
+<td>12</td>
+<td>7</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Execution time</td>
+<td>0.24 ms</td>
+<td>0.21 ms</td>
+<td>0.16 ms</td>
+<td>0.4 ms</td>
+<td>0.52 ms</td>
+<td>0.21 ms</td>
+<td>0.21 ms</td>
+<td>0.17 ms</td>
+<td>0.37 ms</td>
+<td>0.4 ms</td>
+<td>0.1 ms</td>
+<td>0.14 ms</td>
+</tr>
+<tr>
+<td>Solution Cost</td>
+<td>198</td>
+<td>198</td>
+<td>385</td>
+<td>198</td>
+<td>198</td>
+<td>198</td>
+<td>198</td>
+<td>385</td>
+<td>198</td>
+<td>198</td>
+<td>198</td>
+<td>198</td>
+</tr>
+</table><br /><br /><table border="1">
+Problem: Hirsova<br />
+<tr>
+<th></th>
+<th colspan="5">TREESEARCH</th>
+<th colspan="5">GRAPHSEARCH</th>
+<th colspan="1">RBFS</th>
+<th colspan="1">ITERATIVE_DEEPENING</th>
+</tr>
+<tr>
+<th></th>
+<th>A_STAR</th>
+<th>GREEDY_FIRST</th>
+<th>DEPTH_FIRST</th>
+<th>BREADTH_FIRST</th>
+<th>UNIFORM_COST</th>
+<th>A_STAR</th>
+<th>GREEDY_FIRST</th>
+<th>DEPTH_FIRST</th>
+<th>BREADTH_FIRST</th>
+<th>UNIFORM_COST</th>
+<th></th>
+<th></th>
+</tr>
+<tr>
+<td>Expanded nodes</td>
+<td>2</td>
+<td>2</td>
+<td>101</td>
+<td>3</td>
+<td>4</td>
+<td>2</td>
+<td>2</td>
+<td>6</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Created nodes</td>
+<td>6</td>
+<td>6</td>
+<td>153</td>
+<td>7</td>
+<td>9</td>
+<td>6</td>
+<td>6</td>
+<td>12</td>
+<td>7</td>
+<td>7</td>
+<td>6</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Deleted nodes</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>5</td>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Ignored nodes</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Max nodes concurrent in memory</td>
+<td>6</td>
+<td>6</td>
+<td>153</td>
+<td>7</td>
+<td>9</td>
+<td>6</td>
+<td>6</td>
+<td>8</td>
+<td>6</td>
+<td>6</td>
+<td>6</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Execution time</td>
+<td>0.19 ms</td>
+<td>0.18 ms</td>
+<td>2.41 ms</td>
+<td>0.12 ms</td>
+<td>0.27 ms</td>
+<td>0.19 ms</td>
+<td>0.19 ms</td>
+<td>0.38 ms</td>
+<td>0.27 ms</td>
+<td>0.24 ms</td>
+<td>0.09 ms</td>
+<td>0.11 ms</td>
+</tr>
+<tr>
+<td>Solution Cost</td>
+<td>183</td>
+<td>183</td>
+<td>No solution!</td>
+<td>183</td>
+<td>183</td>
+<td>183</td>
+<td>183</td>
+<td>183</td>
+<td>183</td>
+<td>183</td>
+<td>183</td>
+<td>183</td>
+</tr>
+</table><br /><br /></body></html>

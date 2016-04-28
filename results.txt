@@ -1,0 +1,190 @@
+Input: 88 ct
+
+Treesearch, DEPTH_FIRST
+
+Finished search
+Expanded nodes: 88
+Created nodes: 232
+Deleted nodes: 0
+Ignored nodes: 0
+Max nodes concurrent in memory: 232
+Resulting path:
+  Taking 1 -> Remaining: 87 (h(n): 4; pc+h(n): 5, d: 1)
+  Taking 1 -> Remaining: 86 (h(n): 4; pc+h(n): 6, d: 2)
+  Taking 1 -> Remaining: 85 (h(n): 4; pc+h(n): 7, d: 3)
+  Taking 1 -> Remaining: 84 (h(n): 4; pc+h(n): 8, d: 4)
+  Taking 1 -> Remaining: 83 (h(n): 4; pc+h(n): 9, d: 5)
+  Taking 1 -> Remaining: 82 (h(n): 4; pc+h(n): 10, d: 6)
+  Taking 1 -> Remaining: 81 (h(n): 4; pc+h(n): 11, d: 7)
+  Taking 1 -> Remaining: 80 (h(n): 4; pc+h(n): 12, d: 8)
+  Taking 1 -> Remaining: 79 (h(n): 4; pc+h(n): 13, d: 9)
+  Taking 1 -> Remaining: 78 (h(n): 4; pc+h(n): 14, d: 10)
+  Taking 1 -> Remaining: 77 (h(n): 4; pc+h(n): 15, d: 11)
+  Taking 1 -> Remaining: 76 (h(n): 4; pc+h(n): 16, d: 12)
+  Taking 1 -> Remaining: 75 (h(n): 3; pc+h(n): 16, d: 13)
+  Taking 1 -> Remaining: 74 (h(n): 3; pc+h(n): 17, d: 14)
+  Taking 1 -> Remaining: 73 (h(n): 3; pc+h(n): 18, d: 15)
+  Taking 1 -> Remaining: 72 (h(n): 3; pc+h(n): 19, d: 16)
+  Taking 1 -> Remaining: 71 (h(n): 3; pc+h(n): 20, d: 17)
+  Taking 1 -> Remaining: 70 (h(n): 3; pc+h(n): 21, d: 18)
+  Taking 1 -> Remaining: 69 (h(n): 3; pc+h(n): 22, d: 19)
+  Taking 1 -> Remaining: 68 (h(n): 3; pc+h(n): 23, d: 20)
+  Taking 1 -> Remaining: 67 (h(n): 3; pc+h(n): 24, d: 21)
+  Taking 1 -> Remaining: 66 (h(n): 3; pc+h(n): 25, d: 22)
+  Taking 1 -> Remaining: 65 (h(n): 3; pc+h(n): 26, d: 23)
+  Taking 1 -> Remaining: 64 (h(n): 3; pc+h(n): 27, d: 24)
+  Taking 1 -> Remaining: 63 (h(n): 3; pc+h(n): 28, d: 25)
+  Taking 1 -> Remaining: 62 (h(n): 3; pc+h(n): 29, d: 26)
+  Taking 1 -> Remaining: 61 (h(n): 3; pc+h(n): 30, d: 27)
+  Taking 1 -> Remaining: 60 (h(n): 3; pc+h(n): 31, d: 28)
+  Taking 1 -> Remaining: 59 (h(n): 3; pc+h(n): 32, d: 29)
+  Taking 1 -> Remaining: 58 (h(n): 3; pc+h(n): 33, d: 30)
+  Taking 1 -> Remaining: 57 (h(n): 3; pc+h(n): 34, d: 31)
+  Taking 1 -> Remaining: 56 (h(n): 3; pc+h(n): 35, d: 32)
+  Taking 1 -> Remaining: 55 (h(n): 3; pc+h(n): 36, d: 33)
+  Taking 1 -> Remaining: 54 (h(n): 3; pc+h(n): 37, d: 34)
+  Taking 1 -> Remaining: 53 (h(n): 3; pc+h(n): 38, d: 35)
+  Taking 1 -> Remaining: 52 (h(n): 3; pc+h(n): 39, d: 36)
+  Taking 1 -> Remaining: 51 (h(n): 3; pc+h(n): 40, d: 37)
+  Taking 1 -> Remaining: 50 (h(n): 2; pc+h(n): 40, d: 38)
+  Taking 1 -> Remaining: 49 (h(n): 2; pc+h(n): 41, d: 39)
+  Taking 1 -> Remaining: 48 (h(n): 2; pc+h(n): 42, d: 40)
+  Taking 1 -> Remaining: 47 (h(n): 2; pc+h(n): 43, d: 41)
+  Taking 1 -> Remaining: 46 (h(n): 2; pc+h(n): 44, d: 42)
+  Taking 1 -> Remaining: 45 (h(n): 2; pc+h(n): 45, d: 43)
+  Taking 1 -> Remaining: 44 (h(n): 2; pc+h(n): 46, d: 44)
+  Taking 1 -> Remaining: 43 (h(n): 2; pc+h(n): 47, d: 45)
+  Taking 1 -> Remaining: 42 (h(n): 2; pc+h(n): 48, d: 46)
+  Taking 1 -> Remaining: 41 (h(n): 2; pc+h(n): 49, d: 47)
+  Taking 1 -> Remaining: 40 (h(n): 2; pc+h(n): 50, d: 48)
+  Taking 1 -> Remaining: 39 (h(n): 2; pc+h(n): 51, d: 49)
+  Taking 1 -> Remaining: 38 (h(n): 2; pc+h(n): 52, d: 50)
+  Taking 1 -> Remaining: 37 (h(n): 2; pc+h(n): 53, d: 51)
+  Taking 1 -> Remaining: 36 (h(n): 2; pc+h(n): 54, d: 52)
+  Taking 1 -> Remaining: 35 (h(n): 2; pc+h(n): 55, d: 53)
+  Taking 1 -> Remaining: 34 (h(n): 2; pc+h(n): 56, d: 54)
+  Taking 1 -> Remaining: 33 (h(n): 2; pc+h(n): 57, d: 55)
+  Taking 1 -> Remaining: 32 (h(n): 2; pc+h(n): 58, d: 56)
+  Taking 1 -> Remaining: 31 (h(n): 2; pc+h(n): 59, d: 57)
+  Taking 1 -> Remaining: 30 (h(n): 2; pc+h(n): 60, d: 58)
+  Taking 1 -> Remaining: 29 (h(n): 2; pc+h(n): 61, d: 59)
+  Taking 1 -> Remaining: 28 (h(n): 2; pc+h(n): 62, d: 60)
+  Taking 1 -> Remaining: 27 (h(n): 2; pc+h(n): 63, d: 61)
+  Taking 1 -> Remaining: 26 (h(n): 2; pc+h(n): 64, d: 62)
+  Taking 1 -> Remaining: 25 (h(n): 1; pc+h(n): 64, d: 63)
+  Taking 1 -> Remaining: 24 (h(n): 3; pc+h(n): 67, d: 64)
+  Taking 1 -> Remaining: 23 (h(n): 3; pc+h(n): 68, d: 65)
+  Taking 1 -> Remaining: 22 (h(n): 3; pc+h(n): 69, d: 66)
+  Taking 1 -> Remaining: 21 (h(n): 3; pc+h(n): 70, d: 67)
+  Taking 1 -> Remaining: 20 (h(n): 2; pc+h(n): 70, d: 68)
+  Taking 1 -> Remaining: 19 (h(n): 2; pc+h(n): 71, d: 69)
+  Taking 1 -> Remaining: 18 (h(n): 2; pc+h(n): 72, d: 70)
+  Taking 1 -> Remaining: 17 (h(n): 2; pc+h(n): 73, d: 71)
+  Taking 1 -> Remaining: 16 (h(n): 2; pc+h(n): 74, d: 72)
+  Taking 1 -> Remaining: 15 (h(n): 2; pc+h(n): 75, d: 73)
+  Taking 1 -> Remaining: 14 (h(n): 2; pc+h(n): 76, d: 74)
+  Taking 1 -> Remaining: 13 (h(n): 2; pc+h(n): 77, d: 75)
+  Taking 1 -> Remaining: 12 (h(n): 2; pc+h(n): 78, d: 76)
+  Taking 1 -> Remaining: 11 (h(n): 2; pc+h(n): 79, d: 77)
+  Taking 1 -> Remaining: 10 (h(n): 1; pc+h(n): 79, d: 78)
+  Taking 1 -> Remaining: 9 (h(n): 9; pc+h(n): 88, d: 79)
+  Taking 1 -> Remaining: 8 (h(n): 8; pc+h(n): 88, d: 80)
+  Taking 1 -> Remaining: 7 (h(n): 7; pc+h(n): 88, d: 81)
+  Taking 1 -> Remaining: 6 (h(n): 6; pc+h(n): 88, d: 82)
+  Taking 1 -> Remaining: 5 (h(n): 5; pc+h(n): 88, d: 83)
+  Taking 1 -> Remaining: 4 (h(n): 4; pc+h(n): 88, d: 84)
+  Taking 1 -> Remaining: 3 (h(n): 3; pc+h(n): 88, d: 85)
+  Taking 1 -> Remaining: 2 (h(n): 2; pc+h(n): 88, d: 86)
+  Taking 1 -> Remaining: 1 (h(n): 1; pc+h(n): 88, d: 87)
+  Taking 1 -> Remaining: 0 (h(n): 0; pc+h(n): 88, d: 88)
+python test.py 88  0,42s user 0,02s system 37% cpu 1,175 total
+
+TREESEARCH, UNIFORM_COST
+
+Finished search
+Expanded nodes: 903
+Created nodes: 2200
+Deleted nodes: 0
+Ignored nodes: 0
+Max nodes concurrent in memory: 2200
+Resulting path:
+  Taking 25 -> Remaining: 63 (h(n): 3; pc+h(n): 4, d: 1)
+  Taking 25 -> Remaining: 38 (h(n): 2; pc+h(n): 4, d: 2)
+  Taking 25 -> Remaining: 13 (h(n): 2; pc+h(n): 5, d: 3)
+  Taking 10 -> Remaining: 3 (h(n): 3; pc+h(n): 7, d: 4)
+  Taking 1 -> Remaining: 2 (h(n): 2; pc+h(n): 7, d: 5)
+  Taking 1 -> Remaining: 1 (h(n): 1; pc+h(n): 7, d: 6)
+  Taking 1 -> Remaining: 0 (h(n): 0; pc+h(n): 7, d: 7)
+python test.py 88  26,01s user 2,34s system 33% cpu 1:25,46 total
+
+Treesearch, BREADTH_FIRST
+
+Finished search
+Expanded nodes: 903
+Created nodes: 2200
+Deleted nodes: 0
+Ignored nodes: 0
+Max nodes concurrent in memory: 2200
+Resulting path:
+  Taking 25 -> Remaining: 63 (h(n): 3; pc+h(n): 4, d: 1)
+  Taking 25 -> Remaining: 38 (h(n): 2; pc+h(n): 4, d: 2)
+  Taking 25 -> Remaining: 13 (h(n): 2; pc+h(n): 5, d: 3)
+  Taking 10 -> Remaining: 3 (h(n): 3; pc+h(n): 7, d: 4)
+  Taking 1 -> Remaining: 2 (h(n): 2; pc+h(n): 7, d: 5)
+  Taking 1 -> Remaining: 1 (h(n): 1; pc+h(n): 7, d: 6)
+  Taking 1 -> Remaining: 0 (h(n): 0; pc+h(n): 7, d: 7)
+python test.py 88  26,32s user 2,01s system 33% cpu 1:25,40 total
+
+Treesearch, A_STAR:
+
+Finished search
+Expanded nodes: 395
+Created nodes: 968
+Deleted nodes: 0
+Ignored nodes: 0
+Max nodes concurrent in memory: 968
+Resulting path:
+  Taking 25 -> Remaining: 63 (h(n): 3; pc+h(n): 4, d: 1)
+  Taking 25 -> Remaining: 38 (h(n): 2; pc+h(n): 4, d: 2)
+  Taking 25 -> Remaining: 13 (h(n): 2; pc+h(n): 5, d: 3)
+  Taking 1 -> Remaining: 12 (h(n): 2; pc+h(n): 6, d: 4)
+  Taking 10 -> Remaining: 2 (h(n): 2; pc+h(n): 7, d: 5)
+  Taking 1 -> Remaining: 1 (h(n): 1; pc+h(n): 7, d: 6)
+  Taking 1 -> Remaining: 0 (h(n): 0; pc+h(n): 7, d: 7)
+python test.py 88  6,41s user 0,44s system 38% cpu 17,655 total
+
+Graphsearch, A_STAR:
+
+Finished search
+Expanded nodes: 45
+Created nodes: 124
+Deleted nodes: 2
+Ignored nodes: 46
+Max nodes concurrent in memory: 122
+Resulting path:
+  Taking 25 -> Remaining: 63 (h(n): 3; pc+h(n): 4, d: 1)
+  Taking 25 -> Remaining: 38 (h(n): 2; pc+h(n): 4, d: 2)
+  Taking 25 -> Remaining: 13 (h(n): 2; pc+h(n): 5, d: 3)
+  Taking 1 -> Remaining: 12 (h(n): 2; pc+h(n): 6, d: 4)
+  Taking 10 -> Remaining: 2 (h(n): 2; pc+h(n): 7, d: 5)
+  Taking 1 -> Remaining: 1 (h(n): 1; pc+h(n): 7, d: 6)
+  Taking 1 -> Remaining: 0 (h(n): 0; pc+h(n): 7, d: 7)
+python test.py 88  0,17s user 0,03s system 66% cpu 0,302 total
+
+RBFS:
+
+Finished search
+Expanded nodes: 109
+Created nodes: 311
+Deleted nodes: 293
+Ignored nodes: 0
+Max nodes concurrent in memory: 16
+Resulting path:
+  Taking 10 -> Remaining: 78 (h(n): 4; pc+h(n): 5, d: 1)
+  Taking 1 -> Remaining: 77 (h(n): 4; pc+h(n): 6, d: 2)
+  Taking 25 -> Remaining: 52 (h(n): 3; pc+h(n): 6, d: 3)
+  Taking 25 -> Remaining: 27 (h(n): 2; pc+h(n): 6, d: 4)
+  Taking 25 -> Remaining: 2 (h(n): 2; pc+h(n): 7, d: 5)
+  Taking 1 -> Remaining: 1 (h(n): 1; pc+h(n): 7, d: 6)
+  Taking 1 -> Remaining: 0 (h(n): 0; pc+h(n): 7, d: 7)
+python test.py 88  0,03s user 0,00s system 93% cpu 0,036 total
