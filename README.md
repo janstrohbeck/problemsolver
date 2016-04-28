@@ -1,7 +1,7 @@
-General ProblemSolver
-=====================
+General Problem Solver
+======================
 
-This Program solves problems using searching for a combination of actions which
+This Program solves problems by searching for a combination of actions which
 eventually might lead to a solution. It can use multiple search algorithms
 including A* and RBFS. Benchmarking tests are included for two sample problems:
  - Traveling in Romania to Bucharest [minimum cost path] and
